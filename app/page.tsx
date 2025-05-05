@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import pcImage from '/public/pc-picture.webp';
 import { useState } from 'react';
 
@@ -43,7 +44,7 @@ export default function Home() {
         </p>
         <div className="flex justify-center">
           <Image
-            src="/pc%20picture.webp"
+            src={pcImage}
             alt="PC Image"
             width={700}
             height={400}
