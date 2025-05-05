@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image';
+import pcImage from '/public/pc-picture.webp';
 import { useState } from 'react';
 
 export default function Home() {
